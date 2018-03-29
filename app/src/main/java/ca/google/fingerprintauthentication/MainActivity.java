@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView textView;
     private FingerprintManager.CryptoObject cryptoObject; // Used by the FingerprintManager
     private FingerprintManager fingerprintManager;  // Handles the actual fingerprint authentication
-    private KeyguardManager keyguardManager;        // Used to lock/unlock the keyboard
+    private KeyguardManager keyguardManager;        // Used to to check if the user has a lockscreen lock
 
     private boolean fingerprintsAvailable = false;
 
